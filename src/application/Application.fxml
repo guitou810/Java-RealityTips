@@ -57,7 +57,12 @@
             <Font size="8.0" />
          </font>
       </Label>
-      <DatePicker fx:id="Date" layoutX="75.0" layoutY="72.0" />
+      <DatePicker fx:id="Date" layoutX="75.0" layoutY="72.0" onAction="#initializeDate" />
       <Label fx:id="ErrorDate" layoutX="95.0" layoutY="97.0" prefHeight="17.0" prefWidth="123.0" textFill="#ff0101" />
+      <Label fx:id="ErrorH" layoutX="26.0" layoutY="26.0" prefHeight="20.0" prefWidth="273.0" textFill="#222121">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>
